@@ -838,3 +838,9 @@ pre,
 .JZicT > div > a, .JZicT > div > div{
 	color: white !important;
 }
+
+/* Removes "There are no servers associated with your account. text */
+
+.jVPRyV {
+	display: none !important;
+}
