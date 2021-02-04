@@ -1,0 +1,809 @@
+:root {
+	--main-bg-color: #f5f5f5 !important;
+	--secondary-bg-color: #EFEFEF !important;
+	--secondary-bg-color-alt: #EFEFEF !important;
+	--accent-color: #0049ff !important;
+	--accent-secondary-color: #0049ff !important;
+	--text-color: #fff !important;
+	--border-radius: 9px !important;
+}
+
+
+/* Changes Background */
+
+body,
+.content-wrapper {
+	background-color: var(--main-bg-color) !important;
+}
+
+
+/* Changes Header Color */
+
+.ebtnLL,
+.cWFcHc,
+.iTxXDX,
+.JZicT,
+.skin-blue .wrapper,
+.skin-blue .main-sidebar,
+.skin-blue .left-side,
+.skin-blue .main-header .navbar,
+.skin-blue .main-header .logo,
+.main-footer {
+	background-color: var(--accent-color) !important;
+	border-color: transparent !important;
+	box-shadow: none !important;
+}
+
+
+/* Changes selected tab color */
+
+.fmPgAW>a:active,
+.fmPgAW>.navigation-link:active,
+.fmPgAW>a:hover,
+.fmPgAW>.navigation-link:hover,
+.fmPgAW>a.active,
+.fmPgAW>.navigation-link.active,
+.cWFcHc>div>a:active,
+.cWFcHc>div>div:active,
+.cWFcHc>div>a.active,
+.cWFcHc>div>div.active,
+.jMDToC>a:active,
+.jMDToC>.navigation-link:active,
+.jMDToC>a:hover,
+.jMDToC>.navigation-link:hover,
+.jMDToC>a.active,
+.jMDToC>.navigation-link.active,
+.JZicT>div>a:active,
+.JZicT>div>div:active,
+.JZicT>div>a.active,
+.JZicT>div>div.active {
+	box-shadow: var(--text-color) 0px -2px inset !important;
+	background-color: var(--accent-color) !important;
+}
+
+
+/* Changes Text Color */
+
+.hcJQtJ,
+.ToRTP,
+.dPhkRJ,
+.cKOMAz,
+.jSyjnD,
+.jywpgX,
+.eFKDEh,
+.dUzAFF,
+.cbFifO,
+.farUaV,
+.dMZZHB,
+.lgYuLu,
+.gSUxYg,
+.cdBzyv,
+.gxlLzB,
+.jexamK,
+.eWxPIu,
+.eWxPIu:hover,
+.jXGwrM,
+.mIIYh,
+.iambCQ,
+.iZqkRd,
+.chAlWS,
+.iTwxpv,
+.skin-blue .main-header .logo,
+.hqMMlI,
+.gMnBtJ,
+.iGlDSY,
+.hvGgdb,
+.fqvoaM,
+.ibZJyV,
+.QNQDy,
+.IQTcj,
+.gvFxYb,
+.hSRWXe,
+.gruqae,
+.hLbWuT,
+.bxTHFa,
+.fbgLSy,
+.boINBx,
+.ewCkf,
+.bDMEQe,
+.hrkiAy,
+.btqhop,
+.Rirlp,
+.cUvpcr,
+.iOPCgC {
+	color: var(--text-color) !important;
+}
+
+
+/* Changes disabled switch */
+
+.gdhLjd>label,
+.cDmYBr>label {
+	background-color: var(--secondary-bg-color) !important;
+	border-color: var(--secondary-bg-color) !important;
+}
+
+
+/* Changes enabled switch */
+
+.gdhLjd>input[type="checkbox"]:checked+label,
+.cDmYBr>input[type="checkbox"]:checked+label {
+	background-color: var(--accent-color) !important;
+	border-color: var(--accent-color) !important;
+}
+
+
+/* Changes server list color */
+
+.liBonM,
+.bOIdGn,
+.jkiDvQ,
+.iYhzbi,
+.jqQFoq,
+.bEKRkc,
+.dRhlIo,
+.liBonM,
+.kHuGmn {
+	background-color: black !important;
+	border-radius: var(--border-radius) !important;
+	border-color: var(--secondary-bg-color) !important;
+}
+
+
+/* Changes border when hover */
+
+.liBonM:hover,
+.kHuGmn:hover,
+.dRhlIo:hover,
+.bEKRkc:hover {
+	border-color: var(--accent-color) !important;
+}
+
+
+/* Changes Installing Status, and other bubble text */
+
+.hNrKxe,
+.dMZZHB,
+.dHRxAp,
+.epSLdr,
+.bsrsDD,
+.ffSVrP,
+.fZqvbJ,
+.fLfaAY,
+.bsSkeI,
+.jIIIrT,
+.EwfIk,
+.izAmwE,
+code,
+.select2-container--default .select2-selection--multiple .select2-selection__choice,
+.select2-search--inline .select2-search__field:focus,
+.select2-container--default .select2-search--inline .select2-search__field {
+	border-radius: var(--border-radius);
+	background-color: var(--accent-color) !important;
+	border-color: var(--accent-color) !important;
+	color: var(--text-color) !important;
+}
+
+
+/* Changes server icons */
+
+.kHuGmn .icon,
+.jkiDvQ .icon,
+.bvinzM .icon,
+.iYhzbi .icon,
+.liBonM .icon,
+.jqQFoq .icon,
+.dRhlIo .icon {
+	background-color: var(--accent-color) !important;
+	color: white !important;
+}
+
+
+/* Changes account settings area */
+
+.hfBvRz,
+.fenved {
+	border-radius: var(--border-radius);
+	background-color: var(--secondary-bg-color) !important;
+	border-color: var(--accent-color) !important;
+}
+
+
+/* Changes input areas */
+
+.eDhiE:not([type="checkbox"]):not([type="radio"]),
+.lepTyw:not([type="checkbox"]):not([type="radio"]),
+.eDhiE[type="checkbox"],
+.eDhiE[type="radio"],
+.hDlyZJ:not(.disabled):hover,
+.farUaV,
+.iZMsvi,
+.iYSUfg,
+.cKwXAB,
+.ixeRNi:hover,
+.jVkAsT:not([type="checkbox"]):not([type="radio"]),
+.kmvYjP:not([type="checkbox"]):not([type="radio"]),
+.hsUiOF,
+.jrraLb,
+.icxFlO:hover,
+.gYNKkb,
+.elUIig:hover,
+.ekbHAG,
+.btn-primary,
+.btn-warning,
+.btn-success,
+.alert-danger,
+.input-group .input-group-addon,
+.select2-container--default .select2-selection--single,
+.select2-container--default .select2-selection--multiple {
+	border-color: var(--accent-secondary-color) !important;
+	background-color: var(--secondary-bg-color) !important;
+	border-radius: var(--border-radius) !important;
+}
+
+
+/* Changes header-upper */
+
+.kwjWaB,
+.grusjm,
+.cswOgL,
+.cnbtLx,
+.bWXUsX,
+.nav-tabs-custom.nav-tabs-floating>.nav-tabs,
+.box-header.with-border,
+.bg-gray {
+	border-color: var(--secondary-bg-color) !important;
+	background-color: var(--accent-color) !important;
+}
+
+
+/* Changes header-lower,  */
+
+.ifNwiE,
+.LdCMD,
+.fIhPZJ,
+.cFegvH,
+.box-body {
+	border-color: transparent !important;
+	background-color: var(--secondary-bg-color) !important;
+}
+
+
+/* Hides background of radial areas */
+
+.RkKIC,
+.cRDvbO,
+.dmLxWB,
+.gLxIAb,
+.gHwjbw,
+.WUPIv,
+.dQCdoR,
+.vtEGy,
+.kGXByO,
+.nav-tabs-custom,
+.box,
+.box-footer,
+.small-box>.small-box-footer {
+	background-color: transparent !important;
+	border-top: none !important;
+}
+
+
+/* Changes scroll bar */
+
+::-webkit-scrollbar-thumb:hover {
+	-webkit-box-shadow: inset 0 0 0 1px var(--accent-color), inset 0 0 0 4px var(--accent-color) !important;
+}
+
+::-webkit-scrollbar-thumb {
+	border-right-width: 4px !important;
+	border-left-width: 4px !important;
+	-webkit-border-radius: 9px 4px !important;
+	-webkit-box-shadow: inset 0 0 0 1px var(--accent-color), inset 0 0 0 4px var(--accent-color) !important;
+}
+
+::-webkit-scrollbar {
+	background: var(--secondary-bg-color) !important;
+}
+
+
+/* Changes schedule, Users, Network, File Manager */
+
+.kqnFDg,
+.kHuGmn,
+.hIHBYg,
+.eGIYvK,
+.bmqKpQ,
+.fQUMLV {
+	border-radius: var(--border-radius) !important;
+	background-color: var(--secondary-bg-color) !important;
+}
+
+
+/* Changes Network Icon */
+
+#app>div.sc-2l91w7-0.kDhnAT>div.sc-1p0gm8n-0.kaVYNu>section>div.x3r2dw-0.kbxq2g-0.evldyg.cZTZeB.fade-appear-done.fade-enter-done>div.sc-1xo9c6v-0.yy3pdt-3.gFWKai.hIHBYg>div.yy3pdt-4.irtdLf>div.yy3pdt-5.jCOUjK>svg {
+	color: var(--text-color) !important;
+}
+
+
+/* Changes Sub-User */
+
+.kqnFDg::-webkit-scrollbar {
+	background: var(--secondary-bg-color) !important;
+	border-radius: var(--border-radius) !important;
+}
+
+.ekHIsr {
+	background-color: var(--secondary-bg-color) !important;
+	border-radius: var(--border-radius) !important;
+}
+
+
+/* Fixes border radius when moving off of div */
+
+.icxFlO,
+.elUIig {
+	border-radius: var(--border-radius) !important;
+}
+
+
+/* Changes selected admin page */
+
+.skin-blue .sidebar-menu>li.active>a {
+	box-shadow: var(--accent-color) 0px -0px inset !important;
+	border-left-color: var(--accent-color) !important;
+	background-color: var(--secondary-bg-color-alt) !important;
+}
+
+
+/* Changes background color of hovered admin page */
+
+.skin-blue .sidebar-menu>li:hover>a,
+.skin-blue .sidebar-menu>li.active>a,
+.skin-blue .sidebar-menu>li.menu-open>a,
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+	background-color: var(--secondary-bg-color-alt) !important;
+}
+
+
+/* Changes category name */
+
+.skin-blue .sidebar-menu>li.header {
+	color: var(--text-color) !important;
+	background-color: var(--secondary-bg-color-alt) !important;
+}
+
+
+/* Changes selected tab and background color */
+
+.nav-tabs-custom>.nav-tabs>li.active,
+.table>thead>tr>th,
+.table>tbody>tr>th,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>tbody>tr>td,
+.table>tfoot>tr>td {
+	border-top-color: var(--accent-color) !important;
+	border-bottom-color: var(--accent-color) !important;
+}
+
+.nav-tabs-custom>.nav-tabs>li.active>a,
+.nav-tabs-custom>.nav-tabs>li.active:hover>a {
+	background-color: var(--secondary-bg-color-alt) !important;
+	border-color: transparent;
+}
+
+.nav-tabs-custom>.nav-tabs>li:hover {
+	border-top-color: var(--accent-color) !important;
+}
+
+
+/* Removes border */
+
+.box-footer,
+hr {
+	border-top: none !important;
+}
+
+.nav-tabs-custom>.nav-tabs>li.active,
+.table>thead>tr>th,
+.table>tbody>tr>th,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>tbody>tr>td,
+.table>tfoot>tr>td {
+	background-color: var(--secondary-bg-color-alt) !important;
+}
+
+
+/* Removes port bubble */
+
+.bceLDp {
+	background: transparent !important;
+}
+
+
+/* Changes text color in areas to black */
+
+.jXGwrM,
+.eWxPIu,
+.eWxPIu:hover,
+.khFmcN,
+.jVPRyV,
+.mIIYh,
+.iambCQ,
+.iZqkRd,
+.hmpzrs,
+.giVXMC,
+.ekbHAG,
+.hXZa-dX,
+.jVkAsT,
+.cvBNmH,
+.fa-fw,
+.cEfUBC,
+.cWGgcs,
+.hSvsfy,
+.bmqKpQ,
+.hWzuIc,
+.iBIejp,
+.jVkAsT:not([type="checkbox"]):not([type="radio"])+.input-help,
+.TJhji,
+.ebvPTd,
+.eGLXBj,
+.bcHtwV,
+.kqLdVx,
+#app>div.App___StyledDiv-sc-2l91w7-0.fnfeQw>div.Fade__Container-sc-1p0gm8n-0.hcgQjy>section>div.ContentContainer-x3r2dw-0.PageContentBlock___StyledContentContainer-kbxq2g-0.hiUzTH.ckLneN.fade-appear-done.fade-enter-done>div>div.SettingsContainer___StyledDiv2-sc-1e5ycmz-2.jOEMrJ>div.TitledGreyBox___StyledDiv-gvsoy-0.kGXByO.SettingsContainer___StyledTitledGreyBox2-sc-1e5ycmz-10.QmGPt>div.TitledGreyBox___StyledDiv3-gvsoy-4.fIhPZJ>div.SettingsContainer___StyledDiv8-sc-1e5ycmz-11.hyiIpJ>p,
+#app>div.App___StyledDiv-sc-2l91w7-0.fnfeQw>div.Fade__Container-sc-1p0gm8n-0.hcgQjy>section>div.ContentContainer-x3r2dw-0.PageContentBlock___StyledContentContainer-kbxq2g-0.hiUzTH.ckLneN.fade-appear-done.fade-enter-done>div>div.SettingsContainer___StyledDiv2-sc-1e5ycmz-2.jOEMrJ>div.TitledGreyBox___StyledDiv-gvsoy-0.kGXByO.SettingsContainer___StyledTitledGreyBox2-sc-1e5ycmz-10.QmGPt>div.TitledGreyBox___StyledDiv3-gvsoy-4.fIhPZJ>div.SettingsContainer___StyledDiv9-sc-1e5ycmz-13.iZXRny.CopyOnClick___StyledCopyToClipboard-sc-7pjzdv-1.knscqo>p,
+.dTduZi,
+.cnVYZy,
+.fxuLCT,
+.cvDOmk,
+.dtdJDp,
+.kJoYRf,
+.jexamK,
+.ijVGgG,
+.iBWfkP,
+.kdZiuU,
+.hinjtd:not([type="checkbox"]):not([type="radio"])+.input-help,
+.oHdiU,
+.eWTBmo,
+.kZiVrb,
+.kZiVrb:hover,
+.fMOYf,
+.fNmetC,
+.ToRTP,
+.hcJQtJ,
+.hcJQtJ:hover,
+.dPhkRJ,
+.eDhiE:not([type="checkbox"]):not([type="radio"]),
+.lepTyw:not([type="checkbox"]):not([type="radio"]),
+.eDhiE[type="checkbox"],
+.eDhiE[type="radio"],
+.hDlyZJ:not(.disabled):hover,
+.farUaV,
+.iZMsvi,
+.iYSUfg,
+.cKwXAB,
+.ixeRNi:hover,
+.jVkAsT:not([type="checkbox"]):not([type="radio"]),
+.kmvYjP:not([type="checkbox"]):not([type="radio"]),
+.hsUiOF,
+.jrraLb,
+.icxFlO:hover,
+.gYNKkb,
+.elUIig:hover,
+.ekbHAG,
+.btn-primary,
+.btn-warning,
+.btn-success,
+.alert-danger,
+pre,
+.input-group .input-group-addon,
+.select2-container--default .select2-selection--single,
+.select2-container--default .select2-selection--multiple,
+.kAWZHe,
+.lOfYt,
+.kESVFn,
+.kJpmIC,
+.cKOMAz,
+.kZkdBl,
+.ksVrvH,
+.eDhiE:not([type="checkbox"]):not([type="radio"])+.input-help,
+.kOvkdU,
+.eXBlbs,
+.cytrao,
+.bsvTVs,
+.dUzAFF,
+.inEryg,
+.eoQjFh,
+.jPpJQg,
+.sIAIm,
+.kNRuDt,
+.efbYQb,
+.kHxJHi,
+.gHjzwN,
+.dfcnvu,
+.jywpgX,
+.eFKDEh,
+.kgQbLG,
+#app>div.sc-2l91w7-0.kDhnAT>div.sc-1p0gm8n-0.kaVYNu>section>div.x3r2dw-0.kbxq2g-0.evldyg.cZTZeB.fade-appear-done.fade-enter-done>div.sc-1xo9c6v-0.yy3pdt-3.gFWKai.hIHBYg>div.yy3pdt-4.irtdLf>div.yy3pdt-5.jCOUjK>svg,
+.gxlLzB,
+.dnwjWT,
+.kMifaF,
+.gyFkFb,
+.iYSUfg,
+.jTNfph,
+.cmKlZl,
+#app>div.sc-2l91w7-0.kDhnAT>div.sc-1p0gm8n-0.kaVYNu>section>div.x3r2dw-0.kbxq2g-0.evldyg.cZTZeB.fade-appear-done.fade-enter-done>div>div.sc-1e5ycmz-2.fCxeqD>div.gvsoy-0.gHwjbw.sc-1e5ycmz-10.bLJiVI>div.gvsoy-4.ifNwiE>div.sc-1e5ycmz-13.evXesf.sc-7pjzdv-1.lcvCXd>p,
+#app>div.sc-2l91w7-0.kDhnAT>div.sc-1p0gm8n-0.kaVYNu>section>div.x3r2dw-0.kbxq2g-0.evldyg.cZTZeB.fade-appear-done.fade-enter-done>div>div.sc-1e5ycmz-2.fCxeqD>div.gvsoy-0.gHwjbw.sc-1e5ycmz-10.bLJiVI>div.gvsoy-4.ifNwiE>div.sc-1e5ycmz-11.ixpErB>p,
+.fFWwUW,
+.fFWwUW:hover,
+.fFcOT,
+.emCXNB,
+.emCXNB:hover,
+.hmhrLa:not([type="checkbox"]):not([type="radio"])+.input-help,
+.kpuLsi,
+.kpuLsi:hover,
+.fGUSEz,
+.gSahzV,
+.hAatfs,
+.ecvDYV,
+.imhVxO,
+.cHNiag {
+	color: black !important;
+}
+
+
+/* Changes text to logo */
+
+.ebtnLL #logo>a,
+.iTxXDX #logo>a:hover,
+.iTxXDX #logo>a {
+	display: block !important;
+	-moz-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+	background: url(https://media.discordapp.net/attachments/805901674954489856/806690909122330634/Webp.net-resizeimage.png) no-repeat !important;
+	width: 240px !important;
+	height: 36px !important;
+	padding-left: 42px !important;
+	text-indent: -9999 !important;
+	margin-top: .2vw !important;
+}
+
+
+/* Changes some icons to blue */
+
+.fa-fw,
+.ccDVZo,
+.bVAiVP {
+	color: var(--accent-color) !important;
+}
+
+
+/* Changes scrollbar background color */
+
+.ekHIsr::-webkit-scrollbar,
+.xterm .xterm-viewport::-webkit-scrollbar {
+	background: transparent !important;
+}
+
+
+/* Adds box shadow to similar colored areas */
+
+.kGXByO {
+	box-shadow: 15px 15px 15px -6px rgba(0, 0, 0, 0.35) !important;
+}
+
+.hSPwqA {
+	color: black !important;
+}
+
+.cKqKlJ,
+.iKcAXF {
+	color: var(--text-color) !important;
+}
+
+
+/* Changes button colors on white background */
+
+.gKREGI,
+.ihdqrT,
+.epRhMd,
+.gHfjcW,
+.gtoKJL,
+.beAZjh,
+.cHuOmX,
+.gAKGrx,
+.hlHsnz,
+.sGbsD,
+.qwSWb,
+.fCVdJB,
+.hjLNEP,
+.hPQzcam,
+.eBRJeB,
+.lhjIFG,
+.fYgqLk,
+.hPQzca,
+.iuetbn,
+.kjdsoe,
+.inIIqG,
+.kmjiH {
+	background-color: var(--accent-color) !important;
+	border-color: var(--accent-color) !important;
+	color: white !important;
+}
+
+.hojpzx,
+.cbdhsR,
+.iQGHrE,
+.fpZUaT,
+.ixIRmP,
+.gFfyVn,
+.eZzUai,
+.fZJVTg {
+	color: white !important;
+}
+
+.bzLcIU {
+	border-color: var(--accent-color) !important;
+}
+
+.kghDKu,
+.klouxt,
+.pXUXS,
+#modal-portal>div>div>div>div.sc-9vzni8-3.kqnFDg>p.sc-17lsqpm-2.imhVxO>strong {
+	color: red !important;
+}
+
+.cvBNmH {
+	color: black !important;
+	background: var(--secondary-bg-color) !important;
+	border-radius: var(--border-radius) !important;
+}
+
+.zcocw {
+	color: black !important;
+	background: var(--secondary-bg-color) !important;
+	border-color: var(--accent-color) !important;
+	border-radius: var(--border-radius) !important;
+}
+
+.uOUEk.uOUEk {
+	border-radius: var(--border-radius) !important;
+}
+
+.haunnZ {
+	border-radius: var(--border-radius) !important;
+}
+
+.bPeJFv {
+	background-color: var(--secondary-bg-color) !important;
+}
+
+.bceLDp,
+.bAWhHd,
+.TiGDA,
+.iexaYo,
+.cIdJAI,
+.gMpGYM,
+.kVcacF,
+.cxwlaX,
+.emmiFa,
+.flzRhy,
+.cBEDGM,
+.edGZnr,
+.iXjYLE,
+.bKhVbh,
+.hYAlTx,
+.hSKhGC,
+.jdiuFH,
+.ka-difk {
+	color: var(--accent-color) !important;
+}
+
+.drrdV,
+.BIYEP {
+	visibility: hidden;
+	width: 3% !important;
+}
+
+.cxwlaX {
+	background: transparent !important;
+}
+
+.grusjm {
+	background-color: var(--secondary-bg-color) !important;
+}
+
+.dGqylD,
+.dfVyTW,
+.hsgiBu,
+.eWedAS,
+.svg-inline--fa.fa-w-14,
+.TJYbi,
+.byMBkT,
+.eNwBYp,
+.euABFW,
+#app>div.sc-2l91w7-0.kDhnAT>div.sc-1p0gm8n-0.kaVYNu>section>div.x3r2dw-0.kbxq2g-0.evldyg.cZTZeB.fade-appear-done.fade-enter-done>a>div.iuk2mh-1.dxDSYN>p:nth-child(1),
+.iVamdZ,
+.tXPeL,
+.ewQBXg,
+.iQoxEx,
+.khtfyO,
+.kjXNsK {
+	color: white !important;
+}
+
+.eDhiE[type="checkbox"]:checked,
+.eDhiE[type="radio"]:checked {
+	background-color: var(--accent-color) !important;
+}
+
+.cBxTVo {
+	color: var(--accent-color) !important;
+}
+
+.liBonM,
+.bOIdGn,
+.jkiDvQ,
+.iYhzbi,
+.jqQFoq,
+.bEKRkc,
+.dRhlIo,
+.liBonM,
+.kHuGmn {
+	background: var(--accent-color) !important;
+}
+
+.hucbCe {
+	background-color: var(--secondary-bg-color) !important;
+	border-color: var(--accent-color) !important;
+	color: black !important;
+}
+
+.kZaCVF {
+	color: black !important;
+	background-color: var(--secondary-bg-color) !important;
+	border-radius: var(--border-radius) !important;
+}
+
+.iYSUfg,
+.iZMsvi {
+	background: var(--accent-color) !important;
+	color: white !important;
+}
+
+.bqwAUa,
+.emoCVo {
+	color: black !important;
+	border-color: var(--accent-color) !important;
+}
+
+.emoCVo,
+.iBWfkP {
+	-moz-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+	background: url(https://media.discordapp.net/attachments/805901674954489856/806947009658355712/cryhostingtransparentnew-533x121.png) no-repeat !important;
+	width: 533px !important;
+	height: 121px !important;
+	padding-left: 42px !important;
+	text-indent: -9999 !important;
+	margin: 0 auto !important;
+}
+
+.lcVzzs {
+	background-color: var(--accent-color) !important;
+	border-radius: var(--border-radius) !important;
+}
+
+.dEfFBw {
+	background: transparent !important;
+	color: black !important;
+}
+
+.eODgrr {
+	background-color: var(--secondary-bg-color) !important;
+	border-radius: var(--border-radius) !important;
+	color: black !important;
+}
