@@ -808,18 +808,6 @@ pre,
 	color: black !important;
 }
 
-
-/* Changes text at the bottom */
-
-.eWxPIu, .kZiVrb {
-	visibility: hidden !important;
-}
-
-.eWxPIu:after, .kZiVrb:after {
-	visibility: visible !important;
-	content: 'Cryhosting' !important;
-}
-
 /* Changes Annoucment text color */
 
 #app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-x3r2dw-0.PageContentBlock___StyledContentContainer-kbxq2g-0.hiUzTH.ckLneN.AnnouncementsContainer___StyledPageContentBlock-sc-1wbodu-0.hyEGgw.fade-appear-done.fade-enter-done > div:nth-child(2) > div > div.TitledGreyBox___StyledDiv3-gvsoy-4.fIhPZJ > div > span > p,
@@ -837,10 +825,4 @@ pre,
 .jMDToC > a, .jMDToC > .navigation-link,
 .JZicT > div > a, .JZicT > div > div{
 	color: white !important;
-}
-
-/* Removes "There are no servers associated with your account. text */
-
-.jVPRyV {
-	display: none !important;
 }
