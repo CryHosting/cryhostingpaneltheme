@@ -807,3 +807,34 @@ pre,
 	border-radius: var(--border-radius) !important;
 	color: black !important;
 }
+
+
+/* Changes text at the bottom */
+
+.eWxPIu, .kZiVrb {
+	visibility: hidden !important;
+}
+
+.eWxPIu:after, .kZiVrb:after {
+	visibility: visible !important;
+	content: 'Cryhosting' !important;
+}
+
+/* Changes Annoucment text color */
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-x3r2dw-0.PageContentBlock___StyledContentContainer-kbxq2g-0.hiUzTH.ckLneN.AnnouncementsContainer___StyledPageContentBlock-sc-1wbodu-0.hyEGgw.fade-appear-done.fade-enter-done > div:nth-child(2) > div > div.TitledGreyBox___StyledDiv3-gvsoy-4.fIhPZJ > div > span > p,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-x3r2dw-0.PageContentBlock___StyledContentContainer-kbxq2g-0.hiUzTH.ckLneN.AnnouncementsContainer___StyledPageContentBlock-sc-1wbodu-0.hyEGgw.fade-appear-done.fade-enter-done > div:nth-child(3) > div > div.TitledGreyBox___StyledDiv3-gvsoy-4.fIhPZJ > div > span > p:nth-child(1) > strong,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-x3r2dw-0.PageContentBlock___StyledContentContainer-kbxq2g-0.hiUzTH.ckLneN.AnnouncementsContainer___StyledPageContentBlock-sc-1wbodu-0.hyEGgw.fade-appear-done.fade-enter-done > div:nth-child(3) > div > div.TitledGreyBox___StyledDiv3-gvsoy-4.fIhPZJ > div > span > p:nth-child(2),
+.gzIqje,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-x3r2dw-0.PageContentBlock___StyledContentContainer-kbxq2g-0.hiUzTH.ckLneN.ViewAnnouncement___StyledPageContentBlock-g2cd59-0.iCOavk.fade-appear-done.fade-enter-done > div.ViewAnnouncement___StyledDiv4-g2cd59-5.dZcJzZ > div > div.TitledGreyBox___StyledDiv3-gvsoy-4.fIhPZJ > div > span > p,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-x3r2dw-0.PageContentBlock___StyledContentContainer-kbxq2g-0.hiUzTH.ckLneN.ViewAnnouncement___StyledPageContentBlock-g2cd59-0.iCOavk.fade-appear-done.fade-enter-done > div.ViewAnnouncement___StyledDiv4-g2cd59-5.dZcJzZ > div > div.TitledGreyBox___StyledDiv3-gvsoy-4.fIhPZJ > div > div{
+	color: black !important;
+}
+
+/* Changes tab color to white */
+
+.jMDToC > a,
+.jMDToC > a, .jMDToC > .navigation-link,
+.JZicT > div > a, .JZicT > div > div{
+	color: white !important;
+}
