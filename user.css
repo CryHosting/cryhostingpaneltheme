@@ -826,3 +826,13 @@ pre,
 .JZicT > div > a, .JZicT > div > div{
 	color: white !important;
 }
+
+/* Changes text color */
+
+.hqMMlI, .IQTcj, .fqvoaM, .hvGgdb, .ibZJyV {
+	color: black !important;
+}
+
+.QNQDy, .iGlDSY {
+	color: var(--accent-color) !important;
+}
