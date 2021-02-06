@@ -835,3 +835,9 @@ pre,
 .bceLDp, .bAWhHd, .TiGDA, .iexaYo, .cIdJAI, .gMpGYM, .kVcacF, .cxwlaX, .emmiFa, .flzRhy, .cBEDGM, .edGZnr, .iXjYLE, .bKhVbh, .hYAlTx, .hSKhGC, .jdiuFH, .ka-difk {
 	color: white !important;
 }
+
+/* Changes header to gradient */
+
+.cnbtLx {
+	background: linear-gradient(90deg, var(--header-color-1) 0%, var(--header-color-2) 100%) !important;
+}
