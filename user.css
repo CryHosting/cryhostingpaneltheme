@@ -1,13 +1,13 @@
-:root {	
+:root {
 	--main-bg-color: #0D1117 !important;
-    	--secondary-bg-color: #161B22 !important;
-    	--secondary-bg-color-alt: #EFEFEF !important;
-    	--accent-color: #1c64f2 !important;
-    	--accent-secondary-color: #1c64f2 !important;
+	--secondary-bg-color: #161B22 !important;
+	--secondary-bg-color-alt: #EFEFEF !important;
+	--accent-color: #1c64f2 !important;
+	--accent-secondary-color: #1c64f2 !important;
 	--text-color: #fff !important;
-    	--border-radius: 9px !important;
-        --header-color-1: rgba(0,88,255,1) !important;
-	--header-color-2: rgba(0,39,155,1) !important;
+	--border-radius: 9px !important;
+	--header-color-1: rgba(0, 88, 255, 1) !important;
+	--header-color-2: rgba(0, 39, 155, 1) !important;
 }
 
 
@@ -812,29 +812,58 @@ pre,
 	color: white !important;
 }
 
+
 /* Changes tab color to white */
 
-.jMDToC > a,
-.jMDToC > a, .jMDToC > .navigation-link,
-.JZicT > div > a, .JZicT > div > div{
+.jMDToC>a,
+.jMDToC>a,
+.jMDToC>.navigation-link,
+.JZicT>div>a,
+.JZicT>div>div {
 	color: white !important;
 }
+
 
 /* Changes text color */
 
-.hqMMlI, .IQTcj, .fqvoaM, .hvGgdb, .ibZJyV, .gMnBtJ {
+.hqMMlI,
+.IQTcj,
+.fqvoaM,
+.hvGgdb,
+.ibZJyV,
+.gMnBtJ {
 	color: white !important;
 }
 
-.QNQDy, .iGlDSY {
+.QNQDy,
+.iGlDSY {
 	color: var(--accent-color) !important;
 }
 
+
 /* Changes text color */
 
-.bceLDp, .bAWhHd, .TiGDA, .iexaYo, .cIdJAI, .gMpGYM, .kVcacF, .cxwlaX, .emmiFa, .flzRhy, .cBEDGM, .edGZnr, .iXjYLE, .bKhVbh, .hYAlTx, .hSKhGC, .jdiuFH, .ka-difk {
+.bceLDp,
+.bAWhHd,
+.TiGDA,
+.iexaYo,
+.cIdJAI,
+.gMpGYM,
+.kVcacF,
+.cxwlaX,
+.emmiFa,
+.flzRhy,
+.cBEDGM,
+.edGZnr,
+.iXjYLE,
+.bKhVbh,
+.hYAlTx,
+.hSKhGC,
+.jdiuFH,
+.ka-difk {
 	color: white !important;
 }
+
 
 /* Changes header to gradient */
 
@@ -842,10 +871,13 @@ pre,
 	background: linear-gradient(90deg, var(--header-color-1) 0%, var(--header-color-2) 100%) !important;
 }
 
-.hSPwqA, .hahdAC, .csimfD{
+.hSPwqA,
+.hahdAC,
+.csimfD {
 	background: var(--secondary-bg-color) !important;
 	border: none;
 }
+
 
 /* Fixes console */
 
@@ -861,15 +893,19 @@ pre,
 	background: var(--secondary-bg-color) !important;
 }
 
+
 /* Fixes server is offline text */
 
-.DjcfT, .kUamJQ {
+.DjcfT,
+.kUamJQ {
 	color: white !important;
 }
 
+
 /* Fixes login page */
 
-.fPcGHZ:not([type="checkbox"]):not([type="radio"]), .hinjtd:not([type="checkbox"]):not([type="radio"]) {
+.fPcGHZ:not([type="checkbox"]):not([type="radio"]),
+.hinjtd:not([type="checkbox"]):not([type="radio"]) {
 	background: var(--main-bg-color) !important;
 	border-color: var(--accent-color) !important;
 	border-radius: 25px !important;
