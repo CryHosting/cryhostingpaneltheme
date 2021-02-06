@@ -1,13 +1,14 @@
 :root {
 	
-	--main-bg-color: #f5f5f5 !important;
-    	--secondary-bg-color: #EFEFEF !important;
+	--main-bg-color: #0D1117 !important;
+    	--secondary-bg-color: #161B22 !important;
     	--secondary-bg-color-alt: #EFEFEF !important;
-    	--accent-color: #095DFF !important;
-    	--accent-secondary-color: #095DFF !important;
+    	--accent-color: #1c64f2 !important;
+    	--accent-secondary-color: #1c64f2 !important;
 	--text-color: #fff !important;
     	--border-radius: 9px !important;
-	
+        --header-color-1: rgba(0,88,255,1) !important;
+	--header-color-2: rgba(0,39,155,1) !important;
 }
 
 
@@ -31,7 +32,7 @@ body,
 .skin-blue .main-header .navbar,
 .skin-blue .main-header .logo,
 .main-footer {
-	background-color: var(--accent-color) !important;
+	background: linear-gradient(90deg, var(--header-color-1) 0%, var(--header-color-2) 100%);
 	border-color: transparent !important;
 	box-shadow: none !important;
 }
@@ -60,7 +61,7 @@ body,
 .JZicT>div>a.active,
 .JZicT>div>div.active {
 	box-shadow: var(--text-color) 0px -2px inset !important;
-	background-color: var(--accent-color) !important;
+	background: transparent !important;
 }
 
 
@@ -552,8 +553,9 @@ pre,
 .hAatfs,
 .ecvDYV,
 .imhVxO,
-.cHNiag {
-	color: black !important;
+.cHNiag,
+.iszAim {
+	color: white !important;
 }
 
 
@@ -598,7 +600,7 @@ pre,
 }
 
 .hSPwqA {
-	color: black !important;
+	color: white !important;
 }
 
 .cKqKlJ,
@@ -659,13 +661,13 @@ pre,
 }
 
 .cvBNmH {
-	color: black !important;
+	color: white !important;
 	background: var(--secondary-bg-color) !important;
 	border-radius: var(--border-radius) !important;
 }
 
 .zcocw {
-	color: black !important;
+	color: white !important;
 	background: var(--secondary-bg-color) !important;
 	border-color: var(--accent-color) !important;
 	border-radius: var(--border-radius) !important;
@@ -761,11 +763,11 @@ pre,
 .hucbCe {
 	background-color: var(--secondary-bg-color) !important;
 	border-color: var(--accent-color) !important;
-	color: black !important;
+	color: white !important;
 }
 
 .kZaCVF {
-	color: black !important;
+	color: white !important;
 	background-color: var(--secondary-bg-color) !important;
 	border-radius: var(--border-radius) !important;
 }
@@ -778,7 +780,7 @@ pre,
 
 .bqwAUa,
 .emoCVo {
-	color: black !important;
+	color: white !important;
 	border-color: var(--accent-color) !important;
 }
 
@@ -801,24 +803,13 @@ pre,
 
 .dEfFBw {
 	background: transparent !important;
-	color: black !important;
+	color: white !important;
 }
 
 .eODgrr {
 	background-color: var(--secondary-bg-color) !important;
 	border-radius: var(--border-radius) !important;
-	color: black !important;
-}
-
-/* Changes Annoucment text color */
-
-#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-x3r2dw-0.PageContentBlock___StyledContentContainer-kbxq2g-0.hiUzTH.ckLneN.AnnouncementsContainer___StyledPageContentBlock-sc-1wbodu-0.hyEGgw.fade-appear-done.fade-enter-done > div:nth-child(2) > div > div.TitledGreyBox___StyledDiv3-gvsoy-4.fIhPZJ > div > span > p,
-#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-x3r2dw-0.PageContentBlock___StyledContentContainer-kbxq2g-0.hiUzTH.ckLneN.AnnouncementsContainer___StyledPageContentBlock-sc-1wbodu-0.hyEGgw.fade-appear-done.fade-enter-done > div:nth-child(3) > div > div.TitledGreyBox___StyledDiv3-gvsoy-4.fIhPZJ > div > span > p:nth-child(1) > strong,
-#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-x3r2dw-0.PageContentBlock___StyledContentContainer-kbxq2g-0.hiUzTH.ckLneN.AnnouncementsContainer___StyledPageContentBlock-sc-1wbodu-0.hyEGgw.fade-appear-done.fade-enter-done > div:nth-child(3) > div > div.TitledGreyBox___StyledDiv3-gvsoy-4.fIhPZJ > div > span > p:nth-child(2),
-.gzIqje,
-#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-x3r2dw-0.PageContentBlock___StyledContentContainer-kbxq2g-0.hiUzTH.ckLneN.ViewAnnouncement___StyledPageContentBlock-g2cd59-0.iCOavk.fade-appear-done.fade-enter-done > div.ViewAnnouncement___StyledDiv4-g2cd59-5.dZcJzZ > div > div.TitledGreyBox___StyledDiv3-gvsoy-4.fIhPZJ > div > span > p,
-#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-x3r2dw-0.PageContentBlock___StyledContentContainer-kbxq2g-0.hiUzTH.ckLneN.ViewAnnouncement___StyledPageContentBlock-g2cd59-0.iCOavk.fade-appear-done.fade-enter-done > div.ViewAnnouncement___StyledDiv4-g2cd59-5.dZcJzZ > div > div.TitledGreyBox___StyledDiv3-gvsoy-4.fIhPZJ > div > div{
-	color: #a9a9a9 !important;
+	color: white !important;
 }
 
 /* Changes tab color to white */
@@ -832,7 +823,7 @@ pre,
 /* Changes text color */
 
 .hqMMlI, .IQTcj, .fqvoaM, .hvGgdb, .ibZJyV, .gMnBtJ {
-	color: black !important;
+	color: white !important;
 }
 
 .QNQDy, .iGlDSY {
