@@ -841,3 +841,28 @@ pre,
 .cnbtLx {
 	background: linear-gradient(90deg, var(--header-color-1) 0%, var(--header-color-2) 100%) !important;
 }
+
+.hSPwqA, .hahdAC, .csimfD{
+	background: var(--secondary-bg-color) !important;
+	border: none;
+}
+
+/* Fixes console */
+
+.xterm .xterm-screen {
+	background-color: var(--secondary-bg-color) !important;
+}
+
+.xterm .xterm-screen::-webkit-scrollbar {
+	background-color: var(--secondary-bg-color) !important;
+}
+
+.xterm .xterm-viewport::-webkit-scrollbar {
+	background: var(--secondary-bg-color) !important;
+}
+
+/* Fixes server is offline text */
+
+.DjcfT, .kUamJQ {
+	color: white !important;
+}
